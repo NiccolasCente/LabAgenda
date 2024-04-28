@@ -1,10 +1,14 @@
 import { useState } from "react";
 import img1 from "./assets/img1.png";
-
+import MenuSidebar from './components/MenuSidebar';
+import Login from './components/Login';
 import "./App.css";
+import {BrowserRouter as Router, Route, Routes, Link} from 'react-router-dom';
+import Dashboard from "./components/Dashboard";
+
 
 function App() {
-  const [email, setEmail] = useState("");
+  /*const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleLogin = () => {
@@ -33,9 +37,9 @@ function App() {
      
     });
   };
-
+*/
   return (
-    <div className="container">
+    /*<div className="container">
       <div className="container-login">
         <div className="wrap-login">
         <img className="logo" src={img1} alt="logo FSA" />
@@ -43,6 +47,7 @@ function App() {
             <span className="login-form-title"> Bem vindo </span>
 
             <span className="login-form-title">
+             
              
             </span>
 
@@ -68,13 +73,22 @@ function App() {
 
             <div className="container-login-form-btn">
               <button className="login-form-btn" onClick={handleLogin}>Login</button>
-            </div>
+              {Login}*/          
+              <Router>
+                <Routes>
+                  <Route path ="/*" Component={Login}></Route>
+                  <Route path ="/MenuSidebar" Component={MenuSidebar}></Route>
+                  <Route path = "/Dashboard" Component={Dashboard}></Route>
+                </Routes>
+              </Router>
+            /*</div>
 
           </form>
         </div>
       </div>
-    </div>
-  );
+    </div>*/
+  )
 }
+
 
 export default App;

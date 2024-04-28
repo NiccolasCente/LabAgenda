@@ -47,6 +47,10 @@ body, html {
   text-align: center;
 }
 
+.login-form-btn {
+  text-decoration: none;
+}
+
 .login-form-title img {
   width: 90px;
 }
