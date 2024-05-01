@@ -1,61 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Nunito:wght@400;600;700&display=swap');
 
-.dashboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
+body {
+  font-family: sans-serif; 
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
+  background: linear-gradient(to left, #21d4fd, #b721ff);
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+    
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
+  background: linear-gradient(to left, #21d4fd, #b721ff);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   
-  .dashboard h1 {
-    margin-bottom: 20px;
-  }
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
   
-  .dashboard h2 {
-    margin-bottom: 10px;
-  }
+}
+
+.header span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.header button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #784caf; 
+  color: white;
+  cursor: pointer;
+}
+
+/* Table  */
+.divTable {
+  margin-top: 20px;
   
-  .rooms-container {
-    display: flex;
-    flex-wrap: wrap;
-    overflow-x: auto; /* Add horizontal scrollbar */
-    width: 100%; /* Make the container take up the full width */
-  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; 
+  font-weight: bold;
+}
+
+.lab {
+  text-align: center;
+  color:rgba(239, 236, 236, 0.946);
+  font-size: 16px;
+
+}
+
+.hora {
+  text-align: center;
+  color:rgba(239, 236, 236, 0.946);
+  font-size: 16px;
+
+}
+
+.prof {
+  text-align: center;
+  color:rgba(239, 236, 236, 0.946);
+  font-size: 16px;
+
+}
+
+.acao {
+  text-align: center;
   
-  .room {
-    width: 300px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 15px;
-    flex: 1 0 300px; /* Make rooms shrink and grow with the container */
-  }
+}
+
+.acao button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color:white;
+  cursor: pointer;
+  margin: 0 5px;
+  background-color: #784caf; 
+
   
-  .room h3 {
-    margin-bottom: 10px;
-  }
-  
-  .status {
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
-  }
-  
-  .status.reservado {
-    background-color: #f44336;
-    color: #fff;
-  }
-  
-  .status.disponivel {
-    background-color: #4caf50;
-    color: #fff;
-  }
-  
-  .time-slots {
-    margin-top: 10px;
-  }
-  
-  .time-slots span {
-    display: inline-block;
-    margin-right: 10px;
-  }
+}
+
+.acao button:hover {
+  background-color: #ccc; 
+}
+
+/* Modal */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Ensure modal is above other content */
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  position: relative; /* Allow clicks inside modal to stop propagation */
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal label {
+  font-weight: bold;
+}
+
+.modal input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.modal button[type="button"] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #544caf; 
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-end; 
+}
+
+footer{
+  margin-top: 36em;
+  text-align: center;
+  color:rgba(9, 9, 9, 0.946);
+  font-size: 16px;
+}
