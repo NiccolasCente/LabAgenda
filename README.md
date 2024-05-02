@@ -32,9 +32,9 @@
   <h1>Conclusion:</h1>
   <p>The software that my friends and I are developing is going to help professors schedule their appointments at the laboratories without any problem</p>
   <h2>Developers in this project:</h2>
-  <p>Niccolas Cente</p>
-  <p>Pedro</p>
-  <p>Gabriel Felice</p>
+  <p>Niccolas Cente <a href="https://github.com/NiccolasCente" target="_blank">Github </p>
+  <p>Pedro Santos Basilio <a href="https://github.com/pedrosbdv" target="_blank">Github</p>
+  <p>Gabriel Felice <a href ="https://github.com/Galeofe" target="_blank">GitHub</p>
 </footer>
 
 
