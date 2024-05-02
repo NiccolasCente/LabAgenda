@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Dashboard.css';
-import img1 from "../assets/img1.png";
 
 
 const CadastroFuncionarios = () => {
@@ -89,7 +88,6 @@ const CadastroFuncionarios = () => {
 
   return (
     <div>
-      <img className="logo" src={img1} alt="logo FSA" /> 
       <div className="container">
         <div className="header">
           <span>Cadastro de Laboratórios</span>

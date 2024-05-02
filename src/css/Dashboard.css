@@ -1,28 +1,15 @@
 
 body {
-  font-family: sans-serif; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
-  background: linear-gradient(to left, #21d4fd, #b721ff);
-}
-
-.logo{
-  display: block;
-  margin: 0 auto;
-  margin-top: 1em;
-    
+  background-color: #21d4fd;
 }
 
 .container {
   width: 80%;
   margin: 50px auto;
-  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
-  background: linear-gradient(to left, #21d4fd, #b721ff);
+  background-color: #21d4fd;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -169,8 +156,192 @@ th {
 }
 
 footer{
-  margin-top: 36em;
+  margin-top: 20em;
   text-align: center;
   color:rgba(9, 9, 9, 0.946);
   font-size: 16px;
 }
+
+@media screen and (max-width:400px){
+  .container {
+    width: 100%;
+    background-color: #21d4fd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+    
+    .header button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #784caf; 
+      color: white;
+      cursor: pointer;
+    }
+    
+    /* Table  */
+    .divTable {
+      margin-top: 10px;
+      font-size:10px;
+      
+    }
+    
+    .lab {
+      text-align: center;
+      color:rgba(239, 236, 236, 0.946);
+      font-size: 12px;
+    
+    }
+    
+    .hora {
+      text-align: center;
+      color:rgba(239, 236, 236, 0.946);
+      font-size: 12px;
+    
+    }
+    
+    .prof {
+      text-align: center;
+      color:rgba(239, 236, 236, 0.946);
+      font-size: 12px;
+    
+    }
+    
+    .acao {
+      text-align: center;
+      
+    }
+    
+    .acao button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+      color:white;
+      cursor: pointer;
+      margin: 0 5px;
+      background-color: #784caf; 
+    
+      
+    }
+    
+    .acao button:hover {
+      background-color: #ccc; 
+    }
+    
+    /* Modal */
+    .modal-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10; /* Ensure modal is above other content */
+    }
+    
+    
+    footer{
+      margin-top: 1em;
+      text-align: center;
+      color:rgba(9, 9, 9, 0.946);
+      font-size: 16px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+  }
+
+  @media screen and (max-width:500px){
+    .container {
+      width: 100%;
+      background-color: #21d4fd;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+      
+      .header button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #784caf; 
+        color: white;
+        cursor: pointer;
+      }
+      
+      /* Table  */
+      .divTable {
+        margin-top: 10px;
+        font-size:10px;
+        
+      }
+      
+      .lab {
+        text-align: center;
+        color:rgba(239, 236, 236, 0.946);
+        font-size: 12px;
+      
+      }
+      
+      .hora {
+        text-align: center;
+        color:rgba(239, 236, 236, 0.946);
+        font-size: 12px;
+      
+      }
+      
+      .prof {
+        text-align: center;
+        color:rgba(239, 236, 236, 0.946);
+        font-size: 12px;
+      
+      }
+      
+      .acao {
+        text-align: center;
+        
+      }
+      
+      .acao button {
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        color:white;
+        cursor: pointer;
+        margin: 0 5px;
+        background-color: #784caf; 
+      
+        
+      }
+      
+      .acao button:hover {
+        background-color: #ccc; 
+      }
+      
+      /* Modal */
+      .modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10; /* Ensure modal is above other content */
+      }
+      
+      
+      footer{
+        margin-top: 1em;
+        text-align: center;
+        color:rgba(9, 9, 9, 0.946);
+        font-size: 16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+  }
+  
+  
+

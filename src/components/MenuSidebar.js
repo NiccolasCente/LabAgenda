@@ -1,6 +1,8 @@
 import React from 'react';
 
-import "../css/MenuSidebar.css";
+import '../css/MenuSidebar.css';
+
+import img1 from '../assets/img1.png';
 
 const MenuSidebar = () => {
     const handleClick = () => {
@@ -11,11 +13,10 @@ const MenuSidebar = () => {
 
     return (
         <header className='sidebar'>
+            <img className="logo" src={img1} alt="logo FSA" />
             <h1>LabAgenda</h1>
             <h2 onClick={handleClick} style={{ cursor: 'pointer' }}>Agendar Horários</h2>
-            <h3>Interface</h3>
-            <p>Cadastrar Sala</p>
-            <h4>Opções</h4>
+            <h5 onClick={handleClick} style={{ cursor: 'pointer' }}>LogOut</h5>
         </header>
     );
 }
