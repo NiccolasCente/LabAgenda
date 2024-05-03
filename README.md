@@ -12,7 +12,7 @@
 
 <main>
   <h1>LOGIN:</h1>
-  <p>This section only contains a login screen where the user (professor) will enter his username and password, and press the login button!</p>
+  <p>This section only contains a login screen where the user (profesor) will enter his username and password, and press the login button!</p>
   <img alt="FSALogo" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/5fa91edd-44be-4f58-9242-575933a2cedd"
   <br>
   <h1>MenuSideBar:</h1>
