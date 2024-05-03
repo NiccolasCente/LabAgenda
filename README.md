@@ -21,21 +21,25 @@
   <br>
   <h1>Dashboard:</h1>
   <p>And lastly, but not less importantly, the DASHBOARD which contains options to create, edit, and delete schedule!.</p>
-  <img alt="dashboard" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/5ee93f95-1929-477d-87ee-827198786e65"
+  <img alt="dashboard" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/de693a52-0123-4c9e-8901-1b2df285091b"
   <br>
   <p>The user will have three things to do when he chooses to create an appointment: write the lab that he wants, the time that the lab is going to be in use, and his name(professor's name). </p>
-  <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/be5db8c7-1e95-4e3c-bfca-a3dc804d3b64"
+  <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/57ea302e-dbc6-4409-9365-780c5c07ac58"
   <br>
+  <p>If someone attempts to schedule a laboratory that is already reserved, a message will appear in the system stating that it is not possible, as the laboratory is currently in use.</p>
+  <img alt="Alert" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/867eba13-7872-4c73-b97c-31979dba12ca"
 </main>
 
 <footer>
   <h1>Conclusion:</h1>
-  <p>The software that my friends and I are developing is going to help professors schedule their appointments at the laboratories without any problem</p>
+  <p>The software that my friends and I are developing is going to help professors schedule their appointments at the laboratories without any problem.</p>
   <h2>Developers in this project:</h2>
   <p>Niccolas Cente <a href="https://github.com/NiccolasCente" target="_blank">Github </p>
   <p>Pedro Santos Basilio <a href="https://github.com/pedrosbdv" target="_blank">Github</p>
   <p>Gabriel Felice <a href ="https://github.com/Galeofe" target="_blank">GitHub</p>
 </footer>
+
+
 
 
 
