@@ -4,6 +4,10 @@ import '../css/MenuSidebar.css';
 
 import img1 from '../assets/img1.png';
 
+
+
+
+
 const MenuSidebar = () => {
     const handleClick = () => {
         // adicionar o código para redirecionar o usuário para outra página

@@ -12,6 +12,7 @@ body, html {
 .container {
   width: 100%;
   margin: 0 auto;
+  
 }
 
 .container-login {
@@ -32,6 +33,8 @@ body, html {
   overflow: hidden;
   padding: 77px 55px 33px 55px;
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  justify-content: center;
 }
 
 .login-form {
@@ -99,7 +102,7 @@ body, html {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  background: #6a7dfe;
+  background: #101010;
   background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
   background: -o-linear-gradient(to left, #21d4fd, #b721ff);
   background: -moz-linear-gradient(to left, #21d4fd, #b721ff);

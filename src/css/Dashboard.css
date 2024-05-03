@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
@@ -13,7 +12,6 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  
 }
 
 /* Header */
@@ -23,7 +21,6 @@ body {
   align-items: center;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
-  
 }
 
 .header span {
@@ -35,15 +32,14 @@ body {
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
-  background-color: #784caf; 
+  background-color: #784caf;
   color: white;
   cursor: pointer;
 }
 
-/* Table  */
+/* Table */
 .divTable {
   margin-top: 20px;
-  
 }
 
 table {
@@ -59,50 +55,34 @@ td {
 }
 
 th {
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   font-weight: bold;
 }
 
-.lab {
-  text-align: center;
-  color:rgba(239, 236, 236, 0.946);
-  font-size: 16px;
-
-}
-
-.hora {
-  text-align: center;
-  color:rgba(239, 236, 236, 0.946);
-  font-size: 16px;
-
-}
-
+.lab,
+.hora,
 .prof {
   text-align: center;
-  color:rgba(239, 236, 236, 0.946);
+  color: rgba(18, 18, 18, 0.946);
   font-size: 16px;
-
 }
 
 .acao {
   text-align: center;
-  
 }
 
 .acao button {
   padding: 5px 10px;
   border: none;
   border-radius: 3px;
-  color:white;
+  color: white;
   cursor: pointer;
   margin: 0 5px;
-  background-color: #784caf; 
-
-  
+  background-color: #784caf;
 }
 
 .acao button:hover {
-  background-color: #ccc; 
+  background-color: #ccc;
 }
 
 /* Modal */
@@ -138,27 +118,42 @@ th {
   font-weight: bold;
 }
 
-.modal input {
+.modal input,
+.modal select {
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 3px;
+}
+
+.modal #m-sala { /* Estilo para o campo de entrada da sala */
+  text-transform: uppercase; /* Transforma o texto em maiúsculo */
 }
 
 .modal button[type="button"] {
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
-  background-color: #544caf; 
+  background-color: #544caf;
   color: white;
   cursor: pointer;
   margin-top: 10px;
-  align-self: flex-end; 
+  align-self: flex-end;
 }
 
-footer{
-  margin-top: 20em;
+/* Alerta */
+.alert {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
   text-align: center;
-  color:rgba(9, 9, 9, 0.946);
+}
+
+footer {
+  margin-top: 2em; /* Ajuste da margem superior do rodapé */
+  text-align: center;
+  color: rgba(9, 9, 9, 0.946);
   font-size: 16px;
 }
 
