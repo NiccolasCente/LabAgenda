@@ -5,7 +5,7 @@ body {
   background-color: #21d4fd;
 }
 
-.container {
+.container1 {
   width: 80%;
   margin: 50px auto;
   background-color: #21d4fd;
@@ -153,12 +153,12 @@ th {
 footer {
   margin-top: 2em; /* Ajuste da margem superior do rodapé */
   text-align: center;
-  color: rgba(9, 9, 9, 0.946);
+  color: rgba(245, 240, 240, 0.946);
   font-size: 16px;
 }
 
 @media screen and (max-width:400px){
-  .container {
+  .container1 {
     width: 100%;
     background-color: #21d4fd;
     border-radius: 5px;
@@ -181,17 +181,11 @@ footer {
       
     }
     
-    .lab {
-      text-align: center;
-      color:rgba(239, 236, 236, 0.946);
-      font-size: 12px;
-    
-    }
     
     .hora {
       text-align: center;
       color:rgba(239, 236, 236, 0.946);
-      font-size: 12px;
+      font-size: 10px;
     
     }
     
@@ -204,6 +198,8 @@ footer {
     
     .acao {
       text-align: center;
+      font-size: 10px;
+      
       
     }
     
@@ -215,6 +211,7 @@ footer {
       cursor: pointer;
       margin: 0 5px;
       background-color: #784caf; 
+      font-size: 10px;
     
       
     }
@@ -242,14 +239,14 @@ footer {
       margin-top: 1em;
       text-align: center;
       color:rgba(9, 9, 9, 0.946);
-      font-size: 16px;
+      font-size: 1px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
   }
 
   @media screen and (max-width:500px){
-    .container {
+    .container1 {
       width: 100%;
       background-color: #21d4fd;
       border-radius: 5px;
@@ -272,29 +269,25 @@ footer {
         
       }
       
-      .lab {
-        text-align: center;
-        color:rgba(239, 236, 236, 0.946);
-        font-size: 12px;
-      
-      }
       
       .hora {
         text-align: center;
         color:rgba(239, 236, 236, 0.946);
-        font-size: 12px;
+        font-size: 10px;
       
       }
       
       .prof {
         text-align: center;
         color:rgba(239, 236, 236, 0.946);
-        font-size: 12px;
+        font-size: 10px;
       
       }
       
       .acao {
         text-align: center;
+        font-size: 10px;
+        
         
       }
       
@@ -306,6 +299,7 @@ footer {
         cursor: pointer;
         margin: 0 5px;
         background-color: #784caf; 
+        font-size: 10px;
       
         
       }
@@ -332,7 +326,7 @@ footer {
       footer{
         margin-top: 1em;
         text-align: center;
-        color:rgba(9, 9, 9, 0.946);
+        color: rgba(245, 240, 240, 0.946);
         font-size: 16px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       }

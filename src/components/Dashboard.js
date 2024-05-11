@@ -5,7 +5,7 @@ const CadastroFuncionarios = () => {
   const [modalActive, setModalActive] = useState(false);
   const [laboratorios, setLaboratorios] = useState([]);
   const [laboratorio, setLaboratorio] = useState('');
-  const [sala, setSala] = useState(''); // Adicionando o estado para a sala
+  const [sala, setSala] = useState(''); 
   const [hora, setHora] = useState('');
   const [professor, setProfessor] = useState('');
   const [editIndex, setEditIndex] = useState(null);
@@ -119,7 +119,7 @@ const CadastroFuncionarios = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container1">
         <div className="header">
           <span>Cadastro de Laboratórios</span>
           <button onClick={() => openModal()}>Agendar Horário</button>

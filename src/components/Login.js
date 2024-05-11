@@ -8,15 +8,14 @@ import { Link } from 'react-router-dom';
 const Login = () => {
  
     return (
-        <div className="container">
+        <div className="container"> 
           <div className="container-login">
             <div className="wrap-login">
-            <img className="logo" src={img1} alt="logo FSA" />
+            <img className="logo2" src={img1} alt="logo FSA" />
               <form className="login-form">
-                <span className="login-form-title"> Bem vindo </span>
-    
+                <span className="login-form-title"> Bem vindo! </span>
+               
                 <span className="login-form-title">
-                 
                  
                 </span>
     
@@ -45,6 +44,7 @@ const Login = () => {
               </form>
             </div>
           </div>
+          
         </div>
     )
 }   
