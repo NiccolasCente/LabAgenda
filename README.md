@@ -13,21 +13,21 @@
 <main>
   <h1>LOGIN:</h1>
   <p>This section only contains a login screen where the user (professor) will enter his username and password, and press the login button!</p>
-  <img alt="FSALogo" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/5fa91edd-44be-4f58-9242-575933a2cedd"
+  <img alt="FSALogo" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/0666a9a7-fd7f-48dc-a486-ad1bffcc005a"
   <br>
   <h1>MenuSideBar:</h1>
   <p>This section contains the option to create a schedule, and if the user does so, they will be redirected to another page!</p>
-  <img alt="MenuSideBar" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/7a18a9a2-7f09-4d0d-bebf-ba6f7defd2e8"
+  <img alt="MenuSideBar" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/4ef9f90f-7c12-43f3-8097-befaafa91240"
   <br>
   <h1>Dashboard:</h1>
   <p>And lastly, but not less importantly, the DASHBOARD which contains options to create, edit, and delete schedule!.</p>
-  <img alt="dashboard" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/de693a52-0123-4c9e-8901-1b2df285091b"
+  <img alt="dashboard" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/12cfbc2b-3542-4d6a-8280-c46e4bb567fd"
   <br>
   <p>The user will have three things to do when he chooses to create an appointment: write the lab that he wants, the time that the lab is going to be in use, and his name(professor's name). </p>
-  <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/57ea302e-dbc6-4409-9365-780c5c07ac58"
+  <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/934693c4-cc89-4fd4-b11a-3d63ba0c3b4d"
   <br>
   <p>If someone attempts to schedule a laboratory that is already reserved, a message will appear in the system stating that it is not possible, as the laboratory is currently in use.</p>
-  <img alt="Alert" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/867eba13-7872-4c73-b97c-31979dba12ca"
+  <img alt="Alert" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/c111825e-1d09-4e3b-adaf-5c914d52ae30"
 </main>
 
 <footer>
@@ -38,6 +38,7 @@
   <p>Pedro Santos Basilio <a href="https://github.com/pedrosbdv" target="_blank">Github</p>
   <p>Gabriel Felice <a href ="https://github.com/Galeofe" target="_blank">GitHub</p>
 </footer>
+
 
 
 
