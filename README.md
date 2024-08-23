@@ -28,6 +28,9 @@
   <br>
   <p>If someone attempts to schedule a laboratory that is already reserved, a message will appear in the system stating that it is not possible, as the laboratory is currently in use.</p>
   <img alt="Alert" src="https://github.com/user-attachments/assets/fefcf607-78f0-4616-89c3-36e8b82143f5"
+  
+  <img alt="Alert" https://github.com/user-attachments/assets/56847142-0321-4b8c-9346-3e2a20bbaade
+
 </main>
 
 <footer>
