@@ -15,10 +15,6 @@
   <p>This section only contains a login screen where the user (professor) will enter his username and password, and press the login button!</p>
   <img alt="FSALogo" src="https://github.com/user-attachments/assets/5805a529-807a-4824-a2b1-0596f59e7f26"
   <br>
-  <h1>MenuSideBar:</h1>
-  <p>This section contains the option to create a schedule, and if the user does so, they will be redirected to another page!</p>
-  <img alt="MenuSideBar" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/4ef9f90f-7c12-43f3-8097-befaafa91240"
-  <br>
   <h1>Dashboard:</h1>
   <p>And lastly, but not less importantly, the DASHBOARD which contains options to create, edit, and delete schedule!.</p>
   <img alt="dashboard" src="https://github.com/user-attachments/assets/b90de4a8-0b6c-4a4d-9de9-4aaed063ffd9"
