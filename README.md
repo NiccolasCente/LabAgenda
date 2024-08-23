@@ -13,7 +13,7 @@
 <main>
   <h1>LOGIN:</h1>
   <p>This section only contains a login screen where the user (professor) will enter his username and password, and press the login button!</p>
-  <img alt="FSALogo" src="![image](https://github.com/user-attachments/assets/5805a529-807a-4824-a2b1-0596f59e7f26)"
+  <img alt="FSALogo" src="https://github.com/user-attachments/assets/5805a529-807a-4824-a2b1-0596f59e7f26"
   <br>
   <h1>MenuSideBar:</h1>
   <p>This section contains the option to create a schedule, and if the user does so, they will be redirected to another page!</p>
