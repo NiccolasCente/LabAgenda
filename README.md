@@ -27,7 +27,7 @@
   <img alt="Options" src="https://github.com/user-attachments/assets/91cce0ff-33dc-4934-8dff-61406edf57c0"
   <br>
   <p>If someone attempts to schedule a laboratory that is already reserved, a message will appear in the system stating that it is not possible, as the laboratory is currently in use.</p>
-  <img alt="Alert" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/c111825e-1d09-4e3b-adaf-5c914d52ae30"
+  <img alt="Alert" src="https://github.com/user-attachments/assets/fefcf607-78f0-4616-89c3-36e8b82143f5"
 </main>
 
 <footer>
