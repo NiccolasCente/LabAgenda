@@ -21,7 +21,7 @@
   <br>
   <h1>Dashboard:</h1>
   <p>And lastly, but not less importantly, the DASHBOARD which contains options to create, edit, and delete schedule!.</p>
-  <img alt="dashboard" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/12cfbc2b-3542-4d6a-8280-c46e4bb567fd"
+  <img alt="dashboard" src="https://github.com/user-attachments/assets/b90de4a8-0b6c-4a4d-9de9-4aaed063ffd9"
   <br>
   <p>The user will have three things to do when he chooses to create an appointment: write the lab that he wants, the time that the lab is going to be in use, and his name(professor's name). </p>
   <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/934693c4-cc89-4fd4-b11a-3d63ba0c3b4d"
