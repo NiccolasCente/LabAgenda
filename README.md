@@ -24,7 +24,7 @@
   <img alt="dashboard" src="https://github.com/user-attachments/assets/b90de4a8-0b6c-4a4d-9de9-4aaed063ffd9"
   <br>
   <p>The user will have three things to do when he chooses to create an appointment: write the lab that he wants, the time that the lab is going to be in use, and his name(professor's name). </p>
-  <img alt="Options" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/934693c4-cc89-4fd4-b11a-3d63ba0c3b4d"
+  <img alt="Options" src="https://github.com/user-attachments/assets/91cce0ff-33dc-4934-8dff-61406edf57c0"
   <br>
   <p>If someone attempts to schedule a laboratory that is already reserved, a message will appear in the system stating that it is not possible, as the laboratory is currently in use.</p>
   <img alt="Alert" src="https://github.com/NiccolasCente/LabAgenda/assets/100246795/c111825e-1d09-4e3b-adaf-5c914d52ae30"
